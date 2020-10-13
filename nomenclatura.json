@@ -1,0 +1,24 @@
+SELECT  
+Fecha_Resumen AS Fecha
+,Asegurador_Principal_Txt AS Asegurador_Principal
+,Aseguradores_Paciente_Txt AS Asegurador_Pacientes
+,Departamento_Txt AS Departamento
+,Fuente_Reporte_Txt AS Reporte
+,Cantidad_Casos AS Casos
+
+
+,Cantidad_Confirmado AS Confirmado_
+,Cantidad_Confirmado_Recuperado  AS Confirmado_Recuperado
+,Cantidad_Confirmado_Fallecido AS Confirmado_Fallecido
+
+,Cantidad_Descartado_Negativo AS Descartado_Negativo
+,Cantidad_Descartado_NoCovid AS Descartado_NoCovid
+,Cantidad_Descartado_Alta  AS Descartado_Alta
+
+,Cantidad_Sospechoso_Negativo AS Sospechoso_Negativo
+,Cantidad_Sospechoso AS Sospechoso_
+
+,Cantidad_Confirmado + Cantidad_Confirmado_Recuperado + Cantidad_Confirmado_Fallecido AS ConfirmadoCOVID19
+
+FROM MDB_TRANSVERSAL.VM_IPS_COVID19_RESUMEN_DIA 
+WHERE Asegurador_Principal_Txt <> 'Particular E' AND  Asegurador_Principal_Txt <> 'Particular'
