@@ -1,0 +1,87 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "GEO_ID": "0500000US01001",
+        "STATE": "01",
+        "COUNTY": "001",
+        "NAME": "Norte",
+        "LSAD": "County",
+        "CENSUSAREA": 594.436
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         7.150485, -73.132434
+        ]
+      },
+      "id": "001"
+    },
+	
+	{
+      "type": "Feature",
+      "properties": {
+        "GEO_ID": "0500000US01001",
+        "STATE": "01",
+        "COUNTY": "001",
+        "NAME": "Norte",
+        "LSAD": "County",
+        "CENSUSAREA": 594.436
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         7.143599, -73.127973
+        ]
+      },
+      "id": "002"
+    },
+	
+	{
+      "type": "Feature",
+      "properties": {
+        "GEO_ID": "0500000US01001",
+        "STATE": "01",
+        "COUNTY": "001",
+        "NAME": "Norte",
+        "LSAD": "County",
+        "CENSUSAREA": 594.436
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         7.143599, -73.127973
+        ]
+      },
+      "id": "002"
+    },
+	
+	{
+      "type": "Feature",
+      "properties": {
+        "GEO_ID": "0500000US01001",
+        "STATE": "01",
+        "COUNTY": "001",
+        "NAME": "Norte",
+        "LSAD": "County",
+        "CENSUSAREA": 594.436
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+        7.139371, -73.126495
+        ]
+      },
+      "id": "003"
+    }
+	
+	
+	
+	
+	
+	
+
+
+
